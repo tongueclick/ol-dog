@@ -1,6 +1,7 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+/*@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");*/
 
+/* edited properties: letter-spacing, #main2 width added to #main */
 /* Icon (alt) */
 
 	html, body, div, span, applet, object,
@@ -148,6 +149,7 @@
 		font-weight: 300;
 		line-height: 2;
 		letter-spacing: 0.2em;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
 	}
 
@@ -214,6 +216,7 @@
 	h1 {
 		font-size: 1.85em;
 		letter-spacing: 0.22em;
+		letter-spacing: 0.18em;
 		margin: 0 0 0.525em 0;
 	}
 
@@ -549,6 +552,7 @@
 
 /* Main */
 
+	#main2,
 	#main {
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -573,6 +577,10 @@
 		width: 27em;
 	}
 	
+	#main2 {
+		width: 900px;
+	}
+
 		#main .avatar {
 			position: relative;
 			display: block;
