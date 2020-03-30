@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /images/
+Disallow: /assets/
+Disallow: index.html
+Disallow: doghouse.html
+Disallow: unleashed.html
+Disallow: 404.html
