@@ -549,7 +549,6 @@
 
 /* Main */
 
-	#main2,
 	#main {
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -574,10 +573,6 @@
 		width: 27em;
 	}
 	
-	#main2 {
-		width: 800px;
-	}
-
 		#main .avatar {
 			position: relative;
 			display: block;
